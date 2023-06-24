@@ -1,0 +1,33 @@
+h1 {
+  color: gold;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: gold;
+}
+
+.skill-header {
+  text-align: center;
+  color: gold;
+}
+
+.skill-container {
+  border: solid gold;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+a {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
