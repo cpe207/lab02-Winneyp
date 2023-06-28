@@ -1,21 +1,11 @@
-h1 {
-  color: gold;
-  font-style: italic;
-  text-align: center;
-}
-
 h2 {
   text-align: center;
-  color: gold;
-}
-
-.skill-header {
-  text-align: left;
-  color: gold;
+  color: white;
+  font-style: italic;
 }
 
 .skill-container {
-  border: solid gold;
+  border: solid white;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -23,10 +13,19 @@ h2 {
   margin-bottom: 10px;
 }
 
-a {
-  text-align: center;
+.my-rounded-left {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
 }
 
-p {
-  color: white;
+.my-rounded-right {
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.my-rounded-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
